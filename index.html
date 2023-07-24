@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./CSS/swiper-bundle.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+    
+    <title>Premitte</title>
+</head>
+<body>
+
+    <!-- Start navbar -->
+    <div class="container border-bottom border-dark pt-3 pb-2 d-flex align-items-center justify-content-between">
+        <div class='d-flex align-items-center gap-4'>
+            <img src="images/logo.png" class="logo-img" alt='logo' />
+            <div class="nav-collapse">
+                <div class="menu">
+                    <div class="close-icon nav-toggler" type="button">
+                        <i class="fa-solid fa-xmark fa-lg"></i>
+                    </div>
+                    <ul class='list-unstyled m-0 d-none d-lg-flex flex-row gap-3 fs-6'>
+                        <li>
+                            <a class="text-black nav-toggler" href="./pages/buy.html">Buy</a>
+                        </li>
+                        <li>
+                            <a class="text-black nav-toggler" href="#discover">Discover Deals</a>
+                        </li>
+                        <li>
+                            <a class="text-black nav-toggler" href="#howItWorks">How it works</a>
+                        </li>
+                        <li>
+                            <a class="text-black nav-toggler" href="#forPartners">For partners</a>
+                        </li>
+                        <li>
+                            <a class="text-black nav-toggler" href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class='border-0 fs-6 p-2 rounded-3 text-white btn-primary d-none d-lg-flex'>
+                Become a partner
+            </button>
+            <div class="d-flex d-lg-none nav-toggler" type="button">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End navbar -->
+
+
+
+    <!-- Start Header -->
+    <div class="container mt-5">
+        <div class='row'>
+            <div class='col-12 col-lg-6 d-flex flex-column gap-4'>
+                <p class='main-text'>
+                    Get the best deals and offers in your favorite  
+                    <span class='gradient-text'> 
+                        premium stores!
+                    </span>
+                </p>
+                <p class="small-text">
+                    premitto is your best shopping ally, enjoy a whole year of discounts, 
+                    new offers, and exclusive access to online promo codes for the top best 
+                    products and services. Your options are endless.
+                </p>
+                <div class='d-flex gap-4'>
+                    <img src='./images/p1.png' alt='App Store'
+                        class="store-img" 
+                        type="button"/>
+                    <img src='./images/p2.png' alt='Google Play' 
+                        class="store-img"/>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6  mt-4">
+                <img src='./images/banner-LP.png' alt='banner' style="width: 100%; object-fit: cover;"/>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+
+
+
+
+    <!-- Start Discover -->
+    <div class="container mt-5" id='discover'>
+        <div class="row">
+            <div class='col-12 col-lg-8 d-flex flex-column gap-3'>
+                <button class='gradient-button'>
+                    Discover the best discounts and offers nears you
+                </button>
+                <h1 class='main-text'>
+                    Enjoy the art of purchasing and saving
+                </h1>
+                <p class='small-text'>
+                    Our user-friendly mobile app lets you find deals and offers in-store 
+                    and promo codes to shop online with a sophoisticated geo-location system.
+                </p>
+            </div>
+        </div>
+
+        <div class='row mt-5 gap-5 gap-lg-0'>
+            <div class='col-12 col-lg-8'>
+                <div class='row gap-4 gap-md-0 text-center text-lg-start'> 
+                    <div  class='col-12 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start gap-3'> <!-- lg:items-start space-y-4 -->
+                        <img src='./images/Featured-icon-1.png' style="width: 61px"/>
+                        <h1 class=' fs-5'>Restaurants & Cafes</h1>
+                        <p style="color: var(--gray-color)">
+                            Get discounts and offers from your favorite resturant & cafes! Let's enjoy the best experience for your palate.
+                        </p>
+                    </div>
+                    <div class='col-12 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start gap-3'> <!-- lg:items-start space-y-4 -->
+                        <img src='./images/Featured-icon-1.png' style="width: 61px"/>
+                        <h1 class=' fs-5'>Retail & Services</h1>
+                        <p style="color: var(--gray-color)">
+                            Be the first to discover and receive new offers on your favorite brands. Get the most out of your shopping.
+                        </p>
+                    </div>
+                    <div class='col-12 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start gap-3'> <!-- lg:items-start space-y-4 -->
+                        <img src='./images/Featured-icon-1.png' style="width: 61px"/>
+                        <h1 class=' fs-5'>Beauty & Wellness</h1>
+                        <p style="color: var(--gray-color)">
+                            Pamper and take care of yourself with special deals for spas, beauty salons, health, fitness and more.
+                        </p>
+                    </div>
+                    <div class='col-12 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start gap-3'> <!-- lg:items-start space-y-4 -->
+                        <img src='./images/Featured-icon-1.png' style="width: 61px"/>
+                        <h1 class=' fs-5'>Travel & Hotels</h1>
+                        <p style="color: var(--gray-color)">
+                            The world is yours! Access deals and offers and get the best hotels and travel packages.
+                        </p>
+                    </div>
+                    <div class='col-12 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start gap-3'> <!-- lg:items-start space-y-4 -->
+                        <img src='./images/Featured-icon-1.png' style="width: 61px"/>
+                        <h1 class=' fs-5'>Entertainment</h1>
+                        <p style="color: var(--gray-color)">
+                            Get discounts and offers from your favorite resturant & cafes! Let's enjoy the best experience for your palate.
+                        </p>
+                    </div>
+                    <div class='col-12 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start gap-3'> <!-- lg:items-start space-y-4 -->
+                        <img src='./images/Featured-icon-1.png' style="width: 61px"/>
+                        <h1 class=' fs-5'>Online Shopping</h1>
+                        <p style="color: var(--gray-color)">
+                            Optimize the way you recover, train and sleep with daily reporting on mobile and desktop apps. Start training smarter, not harder.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class='col-12 col-lg-4 d-flex justify-content-center'>
+                <img src='./images/mockup-1.jpeg' style="width: 100%; object-fit: cover;" alt='card image'/>
+            </div>
+        </div>
+    </div>
+    <!-- End Discover -->
+
+
+
+    <!-- Start HowItWorks -->
+    <div class="container mt-5">
+        <div class='d-flex flex-column align-items-center text-center py-20 gap-3' id='howItWorks'>
+            <button class='gradient-button'>
+                How it works
+            </button>
+            <p class='main-text'>Amazing online offers are waiting for you!</p>
+            <p class='sub-title fw-medium ' style="color: var(--grey-500)"> <!-- text-xl md:text-3xl -->
+                In 3 simple steps, you can start saving!
+            </p>
+            <p class=''> <!-- text-md md:text-lg -->
+                Log in to Premitto today and discover a unique way to save, with hundreds of in-store
+                deals and offers and online promo codes to enjoy the pleasure of shopping.
+            </p> 
+            <img src='./images/content.png' alt='content image' style="width: 100%"/>
+        </div>
+    </div>
+    <!-- End HowItWorks -->
+
+
+
+
+
+    <!-- Start For Partner  -->
+    <div class="container my-5">
+        <div class='row gap-4 gap-lg-0' id='forPartners'> <!--space-y-8 lg:space-y-0 -->
+            <div class="partner-item col-12 col-lg-4 p-0 pt-1" type="button">
+                <div class="d-flex flex-column gap-3 bg-white h-100 text-center pt-4 px-4"> <!-- space-y-8 -->   
+                    <h1 class="sub-title">Log in</h1>
+                    <p class="small-text"> 
+                        Download the mobile app from the App store. Please enter your details, tap register, and get our exclusive one-year special discounts membership.
+                    </p>
+                </div>
+            </div>
+            <div class="partner-item col-12 col-lg-4 p-0 pt-1" type="button">
+                <div class="d-flex flex-column gap-3 bg-white h-100 text-center pt-4 px-4"> <!-- space-y-8 -->   
+                    <h1 class="sub-title">Search for deals</h1>
+                    <p class="small-text"> 
+                        Search for deals, use our deals and offers browser and filter according to your location, category, and preferences. A list of online offers will appera in a new seconds.
+                    </p>
+                </div>
+            </div>
+            <div class="partner-item col-12 col-lg-4 p-0 pt-1" type="button">
+                <div class="d-flex flex-column gap-3 bg-white h-100 text-center pt-4 px-4"> <!-- space-y-8 -->   
+                    <h1 class="sub-title">Save more</h1>
+                    <p class="small-text"> 
+                        Save morel Select the deal you need, enter the amount to pay, and get a unique discount voucher. Enjoy a full year of discount and offers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End For Partner -->
+
+
+
+
+
+
+    <!-- Start Blog  -->
+    <div class="container my-5">
+        <div class='d-flex flex-column py-20 gap-3'>
+            <div>
+                <button class='gradient-button'>Our blog</button>
+            </div>
+            <div class='d-flex flex-column flex-md-row justify-content-between gap-3'> 
+                <p class='main-text fw-semibold' style="width: 300px;"> 
+                    A 360&deg; tour with the best places for you!
+                </p>
+                <p class='small-text' style="width: 300px;">
+                    Discover trends and news about the best restaurants, hotels, and shopping places
+                </p>
+            </div>
+            <div class="slide-container my-4 swiper mySwiper">
+                <div class="card-wrapper swiper-wrapper">  
+                    <div class='d-flex flex-column gap-2 swiper-slide' >
+                        <img src='./images/logo-image.png' alt='error' style="width: 100%"/>
+                        <p style="color:var(--primary-color)">
+                            Olivia Rhye. 20 Jan 2022
+                        </p>
+                        <div class='d-flex justify-content-between w-100'>
+                            <h1 class='sub-title'>
+                                Blog Title goes here
+                            </h1>
+                            <button class="bg-transparent border-0 p-0">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+                            </button>
+                        </div>
+                        <p class='small-text text-start'>
+                            Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+                        </p>
+                    </div>
+                    <div class='d-flex flex-column gap-2 swiper-slide'  style="width: 300px">
+                        <img src='./images/logo-image-2.png' alt='error' style="width: 100%"/>
+                        <p style="color:var(--primary-color)">
+                            Phoenix Baker. 19 Jan 2022
+                        </p>
+                        <div class='d-flex justify-content-between w-100'>
+                            <h1 class='sub-title'>
+                                Blog Title goes here
+                            </h1>
+                            <button class="bg-transparent border-0 p-0">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+                            </button>
+                        </div>
+                        <p class='small-text'>
+                            Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+                        </p>
+                    </div>
+                    <div class='d-flex flex-column gap-2 swiper-slide'  style="width: 300px">
+                        <img src='./images/logo-image-3.png' alt='error' style="width: 100%"/>
+                        <p style="color:var(--primary-color)">
+                            Alec Whitten. 17 Jan 2022
+                        </p>
+                        <div class='d-flex justify-content-between w-100'>
+                            <h1 class='sub-title'>
+                                Blog Title goes here
+                            </h1>
+                            <button class="bg-transparent border-0 p-0">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+                            </button>
+                        </div>
+                        <p class='small-text'>
+                            Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+                        </p>
+                    </div>
+                    <div class='d-flex flex-column gap-2 swiper-slide'  style="width: 300px">
+                        <img src='./images/logo-image-4.png' alt='error' style="width: 100%"/>
+                        <p style="color:var(--primary-color)">
+                            Alec Whitten. 17 Jan 2022
+                        </p>
+                        <div class='d-flex justify-content-between w-100'>
+                            <h1 class='sub-title'>
+                                Blog Title goes here
+                            </h1>
+                            <button class="bg-transparent border-0 p-0">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+                            </button>
+                        </div>
+                        <p class='small-text'>
+                            Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class='row gap-4 gap-md-0 rounded-3 p-4 gradient-bg'>
+
+
+                <div class='col-12 col-md-8 d-flex flex-column gap-3  '>
+                    <p class='text-gray-400 main-text' style="color: var(--grey-500)">
+                        Enjoy the experience of shopping more and 
+                        <span class='text-white'> 
+                            &nbsp;paying less!
+                        </span>
+                    </p>
+                    <div class='d-flex gap-4'>
+                        <img src='./images/app-store-white.png' alt='App Store' type="button" 
+                            style="width: 90px;"/>
+
+                        <img src='./images/google-play-white.png' alt='Google Play' type="button" 
+                            style="width: 90px;"/>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4">
+                    <img src='./images/banner-LP.png' alt='banner' style="width: 100%;"/>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End Blog -->
+
+
+
+
+
+
+
+
+    <!-- Start Footer -->
+    <div class="footer border-bottom border-1 border-dark">
+    <div class="container my-5">
+
+
+    <div class='row gap-4 gap-lg-0'>
+
+        <div class='col-12 col-md-7 d-flex flex-column gap-3'>
+            <img src="images/logo.png" alt='logo' style="width: 100px"/>
+            <p class='small-text'>
+                Premitto is an exclusive subscription based service that offers a variety
+                of deals and discounts on premium experience across six categories including
+                food and beverages, beaufy and wellness, entertainment, retail and services,
+                travel and hotel, and online deals.
+            </p>
+        </div>
+
+
+
+        <div class='col-12 col-lg-5  d-flex flex-lg-column align-items-end gap-2  '>
+            <img src='./images/Mobile-app-store-badge-bg-white.png' alt='app store' type="button"
+                style="width: 120px;"/>
+            <img src='./images/Mobile-google-play-badge-bg-white.png' alt='google play' type="button"
+                style="width: 120px;"/>
+        </div>
+    </div>
+
+
+
+    <div class=' py-6 mt-5'>
+        <ul class='d-flex flex-column flex-lg-row gap-lg-3 m-0 p-0'>
+
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                Home
+            </li>
+
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                About us
+            </li>
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                How it works
+            </li>
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                Faq
+            </li>
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                Contact us
+            </li>
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                Privacy policy
+            </li>
+
+            <li class='d-flex gap-2' type="button">
+                <span class='d-lg-none'>
+                    <i class="fa-solid fa-chevron-right fa-sm"></i>
+                </span>
+                Term & conditions
+            </li>
+        
+        </ul>
+    </div>
+
+
+
+    </div>
+    </div>
+
+
+
+    <!-- End Footer -->
+
+
+
+    <!-- Start Right & Social media links -->
+    <div class="container py-3">
+
+    <div class='d-flex flex-column align-items-center flex-lg-row justify-content-lg-between     '>
+        <div>
+            <p class='d-flex align-items-center' style="color: var(--grey-500)">
+                <span class="fs-3">&reg;</span>
+                    2023 Premitto LLC. All rights reserved
+            </p>
+        </div>
+        <ul class='d-flex gap-4 m-0'>
+            <li type="button">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+            </li>
+            
+
+            <li type="button">
+                <i class="fa-brands fa-github fa-lg"></i>
+            </li>
+
+            <li type="button">
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+            </li>
+
+            <li type="button">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+            </li>
+
+            <li type="button">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- End Right & Social media links -->
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="./JS/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="./JS/main.js"></script>
+</body>
+</html>
