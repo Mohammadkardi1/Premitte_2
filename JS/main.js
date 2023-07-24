@@ -42,8 +42,3 @@ function getSpaceBetween() {
   var windowWidth = window.innerWidth;
   return windowWidth <= 760 ? 20 : 30;
 }
-
-
-
-
-
